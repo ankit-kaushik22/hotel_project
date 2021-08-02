@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Log In</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      form {
+        font-size: 1.5em;
+        background-color: lightblue;
+      }
+      input,select {
+        margin: 0 0 0 15px;
+        padding: 5px;
+        border-radius: 5px;
+        border: 2px solid rgb(55, 126, 218);
+      }
+      input:focus{
+        border: 1px solid rgb(62, 97, 212) ;
+      }
+
+      header li {
+        border: 2px solid black;Home
+        border-radius: 10px;
+        padding: 5px;
+        background-color: antiquewhite;
+      }
+      header a {
+        color: rgb(13, 174, 223);
+        list-style-type: none;
+        text-decoration: none;
+      }
+      header a:visited {
+        color: rgb(3, 25, 46);
+      }
+      header a:hover {
+        color: rgb(31, 207, 140);
+      }
+      header a:active {
+        color: rgb(22, 228, 228);
+      }
+      header li {
+        border: 1px solid blue;
+      }
+      /* >>>>>>>>>>>>>>FORM UI OPTIMIZATION>>>>>>>>>>>>>> */
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <ul class="nav_ulist">
+          <li>
+            <a href="index.html"> Back To Home</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <form action="" method="POST">
+      <fieldset>
+        <legend>Personal Information</legend>
+        <label for="fname">First Name:</label>
+        <input
+          type="text"
+          id="fname"
+          placeholder="First Name *"
+          focus
+          required
+        /><br />
+
+        <label for="lname">Last Name:</label>
+        <input type="text" id="lname" placeholder="Last Name" /><br />
+        <label for="age">Age:</label>
+        <select name="age" id="age">
+          <option value="">Under 18</option>
+          <option value="">Above 18</option>
+        </select>
+      </fieldset>
+      <br />
+      <fieldset>
+        <legend>Digital Information</legend>
+        <label for="email">Email:</label>
+        <input
+          type="email"
+          id="lname"
+          placeholder="jackdoe@gmai.com  *"
+          required
+        /><br />
+        <label for="Phone-no">Phone Number:</label>
+        <input type="tel" id="Phone-no" placeholder="90538-47039" />
+      </fieldset>
+      <br /><br />
+      <input type="submit" />
+    </form>
+  </body>
+</html>

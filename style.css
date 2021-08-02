@@ -1,0 +1,145 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+header {
+  height: 4em;
+  background-color: rgb(55, 115, 226);
+  padding: 5px 0 0 0;
+}
+.logo a {
+  font-weight: 200;
+  font-size: 2em;
+  display: inline-block;
+  position: relative;
+  top: 0.5em;
+  left: 0.5em;
+  color: white;
+  text-decoration: none;
+}
+.top {
+}
+.navbar {
+}
+.nav_ulist {
+  float: right;
+}
+.nav_ulist li {
+  display: inline-block;
+  font-size: 1.5em;
+  margin-right: 0.5em;
+}
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>main image>>>>>>>>>>>>> */
+.main-img {
+  text-align: center;
+  /* margin: 2em 1.2em 0 2em; */
+  background-color: tomato;
+  /* border-radius: 20px; */
+  padding: 1em 1em 1em;
+  overflow: visible;
+}
+.hotel-img {
+  height: 30em;
+  width: auto;
+  border-radius: 20px;
+}
+
+/* >>>>>>>>>>>>>>>>>main-buttons>>>>>>>>>>>>>>>>>>>>> */
+.main-buttons {
+  background-color: tomato;
+  border-radius: 10px;
+  text-align: center;
+}
+.buttons-table {
+  margin: 0 0 0 160px;
+}
+.buttons-table tr {
+  margin: 10px 0 0 10px;
+}
+.buttons-table tr:nth-child(odd) {
+  background-color: rgb(82, 142, 160);
+  border-radius: 10px;
+}
+.buttons-table td {
+  font-size: 1.2rem;
+  padding: 2em 4em;
+  border: rgb(47, 155, 190) 2px solid;
+  border-radius: 10px;
+}
+td:hover {
+  background-color: rgb(12, 115, 163);
+  transition: 0.3s;
+  color: rgb(31, 207, 140);
+}
+/* >>>>>>>>>>>>>>>>>>>VISIT-bar>>>>>>>>>> */
+.V-D {
+  padding: 50px 0;
+  background-color: brown;
+}
+.visitbar {
+  font-size: 2em;
+  text-align: center;
+  background-color: black;
+  color: white;
+  max-width: 75%;
+  max-height: 25%;
+  padding: 20px 20px;
+  border-radius: 10px;
+  margin: auto auto;
+}
+.visitbar:hover {
+  max-height: 30%;
+  transition: 0.2s;
+  /* color: rgb(31, 207, 140); */
+  background-color: rgb(175, 167, 167);
+  color: black;
+  box-shadow: rgb(59, 59, 59) 0 10px;
+}
+/* >>>>>>>>>>>>>>>>>>>download-app>>>>>>>>> */
+.applinks {
+  background-color: tomato;
+  width: 100%;
+  height: 200px;
+}
+.applinks img {
+  border-radius: 15px;
+}
+
+.google-playstore {
+  float: left;
+  padding: 10px 30px;
+}
+
+.app-store {
+  border-radius: 15px;
+  float: left;
+  padding: 10px 0 0 60px;
+}
+/* >>>>>>>>>>>>>>>>>footer>>>>>>> */
+footer {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.2em;
+  text-align: left;
+  background-color: brown;
+  padding: 15px 0 15px 10px;
+}
+/* >>>>>>>>>>>>>>>>>>>>Anchor tag>>>>>>>>>>>>>>>>>> */
+.top a {
+  color: rgb(13, 174, 223);
+  list-style-type: none;
+  text-decoration: none;
+}
+.top a:visited {
+  color: rgb(3, 25, 46);
+}
+.top a:hover {
+  color: rgb(31, 207, 140);
+}
+.top a:active {
+  color: rgb(22, 228, 228);
+}
